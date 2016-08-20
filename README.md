@@ -20,7 +20,7 @@ Here I am using DockerHub Registry as an example to push to. But you can use any
 
 We will supply **.docker/config.json** file with valid Docker Registry credentials in order to push the output image into a private Docker Registry or pull the builder image from the private Docker Registry that requires authentication. 
 
-The **.docker/config.json** file is found in your home directory by default and has the following format:
+The **.docker/config.json** file is found in your home directory by default and has the following type of content (you may have json instead of yaml):
 
 ```
 auths:
